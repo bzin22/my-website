@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-row, .second-row {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: #F9FAF8;
+}
+
+.first-row {
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+
+.first-row div {
+    font-size: 12pt;
+    font-weight: bold;
+    align-content: center;
+}
+
+.right-links {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 0px;
+    padding: 8px;
+    border: 0px;
+}
+
+.large-text {
+    font-size: 24pt;
+    font-weight: bolder;
+    padding-right: 5rem;
+}
+
+.sub-text {
+    color: #E5E7EB;
+    padding-right: 1.5rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+.sub-text {
+    font-size: 8pt;
+}
+
+.second-row {
+    padding-bottom: 3rem;
+}
+
+.images {
+    background-color: grey;
+}
+
+button { 
+    background: #3882F6;
+    border: 0;
+    border-radius: 4px;
+    padding: 4px 16px 4px 16px;
+    color: #E5E7EB;
+    cursor: pointer;
+}
+
+.bottom-button {
+    border: 2px #E5E7EB;
+}
+
+.third-row {
+    align-self: center;
+    padding: 16px 0px 16px 0px;
+    color: black;
+    font-weight: bolder;
+    font-size: 14pt;
+}
+
+.fourth-row {
+    display: flex;
+    justify-content: center;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 8em;
+    padding: 0px 8px 5rem 8px;
+}
+
+.small-image {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    height: 100px;
+}
+
+.normal-text {
+    font-size: 8pt;
+    color: #6B7280;
+}
+
+.image-text .normal-text {
+    text-align: center;
+}
+
+.fifth-row {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 3rem 5rem 3rem 5rem;
+    margin-bottom: 5rem;
+    align-items: flex-end;
+}
+
+.quote, .thor {
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.thor {
+    font-weight: 600;
+}
+
+.sixth-row {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 5rem;
+    padding: 2rem 3rem 2rem 3rem;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    max-width: 500px;
+    color: white;
+}
+
+.bottom-button {
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.first-line{
+    font-size: 8pt;
+    padding-right: 3rem;
+}
+
+.second-line{
+    font-size: 6pt;
+    padding-right: 3rem;
+    color: #c5cddf;
+}
+
+.seventh-row {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 8pt;
+}
